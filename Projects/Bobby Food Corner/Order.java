@@ -58,12 +58,21 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
+      }else if(again.equalsIgnoreCase("N")){
           sample();
-      
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
+      }else
+    	  try{
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+          }catch(Exception e){
+    	  System.exit(0);
+          }finally
+      {
+       if(again.equalsIgnoreCase("Y")){
+          order();//call the method you to create 
+       }else 
+          sample();
+            	  
       }    
       }
   else if(choose==2){
@@ -78,21 +87,23 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("take Change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
-      }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try{
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+          }catch(Exception e){
+    	  System.exit(0);
+          }finally
+      {
+    	 if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+         }else 
+              sample();
+            	  
+      }    
+      
     }else if(choose==3){
       System.out.println("Veg Biryani");
       System.out.print("How many plates you want to order? :");
@@ -105,21 +116,26 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("Take change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try
+      {
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+      }catch(Exception e)
+      {
+    	  System.exit(0);
       }
+      finally
+      {
+    	  if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+          }else 
+              sample();
+            	  
+      }    
+      
   }else if(choose==4){
       System.out.println("Chicken Crispy");
       System.out.print("How many plates you want to order? :");
@@ -132,21 +148,26 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("Take change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try
+      {
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+      }catch(Exception e)
+      {
+    	  System.exit(0);
       }
+      finally
+      {
+    	  if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+          }else 
+              sample();
+            	  
+      }    
+      
   }else if(choose==5){
       System.out.println("Panner 65");
       System.out.print("How many plates you want to order? :");
@@ -159,21 +180,26 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("Take change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try
+      {
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+      }catch(Exception e)
+      {
+    	  System.exit(0);
       }
+      finally
+      {
+    	  if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+          }else 
+              sample();
+            	  
+      }    
+      
   }else if(choose==6){
       System.out.println("veg manchurian");
       System.out.print("How many plates you want to order? :");
@@ -186,21 +212,26 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("Take change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try
+      {
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+      }catch(Exception e)
+      {
+    	  System.exit(0);
       }
+      finally
+      {
+    	  if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+          }else 
+              sample();
+            	  
+      }    
+      
   }else if(choose==7){
       System.out.println("Thums Up");
       System.out.print("How many Bottles you want? :");
@@ -213,21 +244,26 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("Take change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try
+      {
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+      }catch(Exception e)
+      {
+    	  System.exit(0);
       }
+      finally
+      {
+    	  if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+          }else 
+              sample();
+            	  
+      }    
+      
   }else if(choose==8){
       System.out.println("Diet Coke");
       System.out.print("How many bottles you want? :");
@@ -240,21 +276,26 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("Take change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try
+      {
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+      }catch(Exception e)
+      {
+    	  System.exit(0);
       }
+      finally
+      {
+    	  if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+          }else 
+              sample();
+            	  
+      }    
+      
   }else if(choose==9){
       System.out.println("Mineral Water");
       System.out.print("How many bottles you want? :");
@@ -267,31 +308,38 @@ public static void order(){
       
       if(again.equalsIgnoreCase("Y")){
           order();//call the method you to create 
-      }else{
-          System.out.println("Make payment: ");
-          pay = input.nextDouble();
-          if(pay <total){
-            System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
-            System.out.println("PlEASE TRY AGAIN");
-          }else{
-          System.out.println("Your Final Bill is: " + total);
-          total = pay-total;
-          System.out.println("Take change " + total);
-          System.out.println("");
-          System.out.println("***Thanks For visiting Bobby Food Corner***");
-          System.out.println("***Enjoy Your Food***");
-          }
+      }else if(again.equalsIgnoreCase("N")){
+          sample();
+      }else
+    	  try
+      {
+    		  System.out.println("Enter Y for yes and N for no");
+    		  again = input.next();
+      }catch(Exception e)
+      {
+    	  System.exit(0);
       }
+      finally
+      {
+    	  if(again.equalsIgnoreCase("Y")){
+              order();//call the method you to create 
+          }else 
+              sample();
+            	  
+      }    
+      
   }else if(choose>9){
-	  System.exit(0);
-	  }else {
-		  System.out.println("choose 1 to 9 only");
-		  order();
-	  }
-}
-public static void sample() {
+	  System.out.println("Not Available"); 
+	  order();
+  }else{
+		order();
+	   }
+  }
+public static void sample(){
+	
 	System.out.println("Make payment: ");
     pay = input.nextDouble();
+    
     if(pay <total){
       System.out.println("Not enough payment...Sorry your Order has been Cancelled!");
       System.out.println("PlEASE TRY AGAIN");
@@ -300,6 +348,10 @@ public static void sample() {
     System.out.println("Your Final Bill is: " + total);
     total = pay-total;
     System.out.println("Take change: " + total);
+    
+    System.out.println("");
+    System.out.println("***Thanks For visiting Bobby Food Corner***");
+    System.out.println("***Enjoy Your Food***");
 }
 }     
 public static void main(String[] args) 
