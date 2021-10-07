@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BobbyFood</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="BobbyFood.css">
 	
 </head>
@@ -45,31 +45,31 @@
 <!------------------about--------------->
  
 
-<section class="about">
+<section class="about" style="text-align: center;"> 
     <h1> About Us </h1>
-    <p>Why choose us?</p>
-
-    <!--div class="row"-->
-        <!--div class="dd"></div> 
-        <div class="image">
-            <img src="image12.jpg" height="100%" width="100%">
-        </div-->
+    <p><u>Best Food in the Country</u></p>
 
         <div class="content">
-            <h3>Best Food in the Country</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+            <pre>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolore, sequi corrupti corporis quaerat voluptatem ipsam 
+            labore modi autem, saepe numquam quod reprehenderit rem? 
+            Tempora aut soluta odio corporis nihil!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, 
+            eum natus.</pre></p>
+            
             <div class="icons-container">
                 <div class="icons">
-                    <i class="fas fa-shipping-fast"></i>
+                    <i class="fa fa-shipping-fast"></i>
                     <span>free delivery</span>
                 </div>
                 <div class="icons">
-                    <i class="fas fa-dollar-sign"></i>
+                    <i class="fa fa-dollar-sign"></i>
                     <span>Easy payments</span>
                 </div>
                 <div class="icons">
-                    <i class="fas fa-headset"></i>
+                    <i class="fa fa-headset"></i>
                     <span>24/7 Service</span>
                 </div>
             </div>
@@ -90,96 +90,96 @@
     <div class="box-container">
 
         <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
             <img src="image2.jpg" alt="">
             <h3>tasty food</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
             </div>
             <span>$15.99</span>
             <a href="#" class="btn2">Add to Cart</a>
         </div>
 
         <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
             <img src="image3.jpg" alt="">
             <h3>tasty food</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
             </div>
             <span>$15.99</span>
             <a href="#" class="btn2">add to cart</a>
         </div>
 
         <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
             <img src="dish-4.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
             </div>
             <span>$15.99</span>
             <a href="#" class="btn2">add to cart</a>
         </div>
 
         <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
             <img src="dish-3.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
             </div>
             <span>$15.99</span>
             <a href="#" class="btn2">add to cart</a>
         </div>
 
         <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
             <img src="dish-2.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
             </div>
             <span>$15.99</span>
             <a href="#" class="btn2">add to cart</a>
         </div>
 
         <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
             <img src="dish-1.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
             </div>
             <span>$15.99</span>
             <a href="#" class="btn2">add to cart</a>
@@ -190,7 +190,7 @@
 <section class="branches">
     <h1>Our Branches</h1>
     <p>Meet Us on Every Turn...</p>
-  </section>
+</section> 
  
  <div class="aa">
      <div class="dd"></div> 
@@ -198,9 +198,15 @@
          <img src="image9.jpg" height="100%" width="100%">
      </div>
      <div class="cc">
-         <h3>THANE</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, facere quas officia vero nostrum, magnam labore nisi illo eius, quo corrupti sapiente fugit optio provident! Accusamus eveniet nostrum incidunt iure.</p>
- 
+        <div class="parainfo">
+        <h3>THANE</h3>
+        <pre>Lorem ipsum dolor sit amet consectetur 
+              adipisicing elit. Sed, facere quas offi
+              cia vero nostrum, magnam labore nisi illo 
+              eius,quo corrupti sapiente fugit optio 
+              provident!Accusamus eveniet nostrum incidunt 
+              iure.Accusamus eveniet nostrum incidunt</pre>
+        </div>
          <p>
              <a href="#" class="button1">Learn More</a>
          </p>
@@ -288,6 +294,16 @@
    </div>
     <div class="gg">
     </div>
+    
+
+
+
+
+
+
+
+
+
 <!-----------------------Reviews---------------------------->
 <section class="review" id="review">
 
@@ -299,11 +315,11 @@
             <img src="image20.jpeg" alt="">
             <h3>Shalini Kumari</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
         </div>
@@ -311,11 +327,11 @@
             <img src="image22.jpeg" alt="">
             <h3>Diksha Thoke</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
         </div>
@@ -323,11 +339,11 @@
             <img src="image21.jpg" alt="">
             <h3>Nikita</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
         </div>
@@ -335,11 +351,11 @@
             <img src="image23.jpeg" alt="">
             <h3>Snehal</h3>
             <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
         </div>
@@ -429,9 +445,10 @@
             <a href="#">Nashik</a>
             <a href="#">Andheri</a>
         </div>
-
+        
         <div class="box">
-            <h3>contact info</h3>
+            <h3>Contact Info</h3>
+            <a href="#">0251-2691139</a>
             <a href="#">+91-8087987566</a>
             <a href="#">+91-9119536474</a>
             <a href="#">bobbyfood2021@gmail.com</a>
@@ -441,15 +458,19 @@
 
         <div class="box">
             <h3>follow us</h3>
-            <a href="#">facebook</a>
-            <a href="#">twitter</a>
-            <a href="#">instagram</a>
-            <a href="#">linkedin</a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
         </div>
 
     </div>
 
-    <div class="credit"><span>copyright @ 2021 by miss.bobby</span> </div>
+    <div class="credit">
+        <div class="logo">
+            <img src="image6.jpg"></div>
+        <span>copyright @ 2021 by miss.bobby</span> 
+    </div>
 
 </section>
 <!-------------------------------Footer end------------------------------------------------->
