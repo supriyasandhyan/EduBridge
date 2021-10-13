@@ -17,7 +17,7 @@
 	<header>
  	<div class="nav">
  		<div class="logo">
- 			<img src="image6.jpg">
+ 			<img src="Images/image6.jpg">
  	 <ul>
  		<li><a href="#">HOME</a></li>
  		<li><a href="#">ABOUT</a></li>
@@ -92,7 +92,7 @@
         <div class="box">
             <a href="#" class="fa fa-heart"></a>
             <a href="#" class="fa fa-eye"></a>
-            <img src="image2.jpg" alt="">
+            <img src="Images/image2.jpg" alt="">
             <h3>tasty food</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -108,7 +108,7 @@
         <div class="box">
             <a href="#" class="fa fa-heart"></a>
             <a href="#" class="fa fa-eye"></a>
-            <img src="image3.jpg" alt="">
+            <img src="Images/image3.jpg" alt="">
             <h3>tasty food</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -124,7 +124,7 @@
         <div class="box">
             <a href="#" class="fa fa-heart"></a>
             <a href="#" class="fa fa-eye"></a>
-            <img src="dish-4.png" alt="">
+            <img src="Images/dish-4.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -140,7 +140,7 @@
         <div class="box">
             <a href="#" class="fa fa-heart"></a>
             <a href="#" class="fa fa-eye"></a>
-            <img src="dish-3.png" alt="">
+            <img src="Images/dish-3.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -156,7 +156,7 @@
         <div class="box">
             <a href="#" class="fa fa-heart"></a>
             <a href="#" class="fa fa-eye"></a>
-            <img src="dish-2.png" alt="">
+            <img src="Images/dish-2.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -172,7 +172,7 @@
         <div class="box">
             <a href="#" class="fa fa-heart"></a>
             <a href="#" class="fa fa-eye"></a>
-            <img src="dish-1.png" alt="">
+            <img src="Images/dish-1.png" alt="">
             <h3>tasty food</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -195,7 +195,7 @@
  <div class="aa">
      <div class="dd"></div> 
      <div class="bb">
-         <img src="image9.jpg" height="100%" width="100%">
+         <img src="Images/image9.jpg" height="100%" width="100%">
      </div>
      <div class="cc">
         <div class="parainfo">
@@ -225,7 +225,7 @@
         </p>
     </div>
     <div class="newyork-picture">
-        <img src="image7.jpg" height="100%" width="100%">
+        <img src="Images/image7.jpg" height="100%" width="100%">
    </div>
     <div class="gg">
     </div>
@@ -234,7 +234,7 @@
 <div class="aa">
     <div class="dd"></div> 
     <div class="bb">
-        <img src="image17.png" height="100%" width="100%">
+        <img src="Images/image17.png" height="100%" width="100%">
     </div>
     <div class="cc">
         <h3>Pune</h3>
@@ -258,7 +258,7 @@
         </p>
     </div>
     <div class="newyork-picture">
-        <img src="images19.jpg" height="100%" width="100%">
+        <img src="Images/images19.jpg" height="100%" width="100%">
    </div>
     <div class="gg">
     </div>
@@ -266,7 +266,7 @@
 <div class="aa">
     <div class="dd"></div> 
     <div class="bb">
-        <img src="image14.jpg" height="100%" width="100%">
+        <img src="Images/image14.jpg" height="100%" width="100%">
     </div>
     <div class="cc">
         <h3>Nashik</h3>
@@ -290,7 +290,7 @@
         </p>
     </div>
     <div class="newyork-picture">
-        <img src="image8.jpg" height="100%" width="100%">
+        <img src="Images/image8.jpg" height="100%" width="100%">
    </div>
     <div class="gg">
     </div>
@@ -307,12 +307,11 @@
 <!-----------------------Reviews---------------------------->
 <section class="review" id="review">
 
-    <h1 class="heading"> Our Customers <span>reviews</span> </h1>
-
+    <h1>Reviews</h1>
+    <p>What our Customer Says...</p>
     <div class="box-container">
-
-        <div class="box">
-            <img src="image20.jpeg" alt="">
+<div class="box">
+            <img src="Images/image20.jpeg" alt="">
             <h3>Shalini Kumari</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -324,7 +323,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
         </div>
         <div class="box">
-            <img src="image22.jpeg" alt="">
+            <img src="Images/image22.jpeg" alt="">
             <h3>Diksha Thoke</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -336,7 +335,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
         </div>
         <div class="box">
-            <img src="image21.jpg" alt="">
+            <img src="Images/image21.jpg" alt="">
             <h3>Nikita</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
@@ -348,8 +347,8 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
         </div>
         <div class="box">
-            <img src="image23.jpeg" alt="">
-            <h3>Snehal</h3>
+            <img src="Images/sup.jpeg" alt="">
+            <h3>Supriya</h3>
             <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -468,7 +467,7 @@
 
     <div class="credit">
         <div class="logo">
-            <img src="image6.jpg"></div>
+            <img src="Images/image6.jpg"></div>
         <span>copyright @ 2021 by miss.bobby</span> 
     </div>
 
